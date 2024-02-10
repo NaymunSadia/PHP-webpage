@@ -1,0 +1,122 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+  
+}
+.container {
+ 
+ 
+  width: 100%;
+  
+
+ 
+}
+.container .row .col-sm-4 .signup_form{
+  width: 600px;
+  margin-left: -115px;
+  
+}
+.container .row .col-sm-4 .signup_form h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #333;
+}
+form{
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 0px;
+padding: 15px;
+  border-radius: 10px;
+}
+
+
+
+
+
+.container .row .col-sm-4 .signup_form .mb-4{
+  margin-top: 40px;
+  position: relative;
+  height: 35px;
+  width: 85%;
+  margin-left: 20px;
+}
+
+
+.container .row .col-sm-4 .signup_form .mb-4 .cp1{
+  margin-top: 50px;
+}
+
+.mb-4 input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+ 
+  border: 1px solid #d1d1d1;
+}
+
+  .col-sm-4 .signup_form .mb-4 .error {
+ 
+   
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    color: #d93025;
+    font-size: 14px;
+   
+  }
+  .error .error-text{
+    transform: translateY(5%);
+  }
+ 
+ 
+  .col-sm-4 .signup_form .mb-4 .perror {
+ 
+   
+    display: flex;
+   align-items: flex-start;
+   margin-top: 6px;
+    color: #d93025;
+    font-size: 14px;
+   
+  }
+  .perror .perror-text{
+    transform: translateY(2%);
+  }
+
+ 
+ 
+ 
+
+  .button {
+    margin: 25px 0 6px;
+    text-align: center;
+  }
+  .button #sub{
+      width: 180px;
+      height: 40px;
+     
+      border-radius: 8px;
+   
+  }
+  .button input {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #4070f4;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  .button input:hover {
+    background-color: #0e4bf1;
+  }
